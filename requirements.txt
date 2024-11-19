@@ -1,5 +1,4 @@
 segno
-time
 opencv-python-headless
 pillow
 qrcode-artistic
