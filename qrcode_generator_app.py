@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="👾")
 
 # add a banner
-st.image("images/main_banner.png")
+st.image("main_banner.png")
 
 st.title("Welcome!")
 
@@ -24,7 +24,7 @@ if url:
     with st.spinner("generate QR Code"):
         time.sleep(1)
     create_qrcode(url)
-    st.image("images/qrcode_streamlit.png",
+    st.image("qrcode_streamlit.png",
              caption=("Here you go <3"),
              width = 300
     )
